@@ -11,10 +11,14 @@
             "id": "25bb21415711ecf1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Code/Shell/Sudoers guide.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sudoers guide"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Code/Shell/Sudoers guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Sudoers guide"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Code/Shell/Sudoers guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Sudoers guide"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Code/Shell/Sudoers guide.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Sudoers guide"
             }
           },
           {
@@ -159,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,6 +181,7 @@
   },
   "active": "25bb21415711ecf1",
   "lastOpenFiles": [
+    "Code/Shell/Sudoers guide.md",
     "Code/Servers/Fail2Ban.md",
     "README.md",
     "Code/Kotlin/Android/Libraries/Haze/Materials/Materials.md",
