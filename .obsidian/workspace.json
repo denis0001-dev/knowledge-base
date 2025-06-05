@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Code/Servers/Fail2Ban.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {

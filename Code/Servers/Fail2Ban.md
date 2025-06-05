@@ -1,4 +1,5 @@
 #server #shell #code #fix
+## Setup
 
 To set up Fail2Ban use the following commands:
 ```bash
@@ -68,10 +69,43 @@ action = %(action_)s
 #
 # SSH servers
 #
-
 [sshd]
 enabled = true
 port    = ssh
 logpath = /var/log/auth.log
 backend = %(sshd_backend)s
 ```
+
+## Commands
+- List banned IPs:
+	```bash
+	sudo fail2ban-client status sshd
+	```
+	
+	```
+	Status for the jail: sshd
+	|- Filter
+	|  |- Currently failed: 0
+	|  |- Total failed: 78
+	|  `- Journal matches: _SYSTEMD_UNIT=ssh.service + _COMM=sshd
+	`- Actions
+	   |- Currently banned: 12
+	   |- Total banned: 14
+	   `- Banned IP list: 207.166.176.173 79.120.9.74 193.32.162.157 185.93.89.118 206.189.45.230 134.199.195.172 157.245.57.128 8.222.170.38 61.191.75.26 161.35.79.147 47.97.108.243 8.219.242.21
+	```
+- Unban a single IP:
+  ```bash
+	sudo fail2ban-client set sshd unbanip <ip>
+	```
+- Unban ALL IPs:
+  ```bash
+	sudo fail2ban-client unban --all
+	```
+- Read logs in real-time:
+  ```bash
+	tail -f /var/log/fail2ban.log
+	```
+- Clear logs:
+  ```bash
+	echo "" > /var/log/fail2ban.log
+	```
