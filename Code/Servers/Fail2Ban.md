@@ -1,4 +1,4 @@
-#server #shell #code #fix
+#server #shell #code #security
 ## Setup
 
 To set up Fail2Ban use the following commands:

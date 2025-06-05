@@ -1,3 +1,4 @@
+#shell #server #security #code #guide
 ### How to edit sudoers
 Execute the following command:
 ```bash
