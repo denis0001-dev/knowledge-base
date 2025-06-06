@@ -11,10 +11,14 @@
             "id": "25bb21415711ecf1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Code/Kotlin/Libraries/kotlinx.datetime.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "kotlinx.datetime"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Code/Kotlin/Libraries/kotlinx.datetime.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for kotlinx.datetime"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Code/Kotlin/Libraries/kotlinx.datetime.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from kotlinx.datetime"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Code/Kotlin/Libraries/kotlinx.datetime.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of kotlinx.datetime"
             }
           },
           {
@@ -175,21 +182,35 @@
   },
   "active": "25bb21415711ecf1",
   "lastOpenFiles": [
-    "Code/Shell/Sudoers guide.md",
+    "Code/Kotlin/Libraries/kotlinx.datetime.md",
+    "Code/Kotlin/Libraries/kotlinx.datetime~.md",
     "Code/Servers/Fail2Ban.md",
-    "README.md",
-    "Code/Kotlin/Android/Libraries/Haze/Materials/Materials.md",
+    "Code/Kotlin/Libraries/kotlinx.datetime",
+    "Code/Kotlin/Libraries/Новая папка",
     "Code/Kotlin/Android/Libraries/Haze/Samples/Scaffold.md",
+    "Code/Kotlin/Libraries/Haze/Materials/Cupertino.png",
+    "Code/Kotlin/Libraries/Haze/Materials/Materials.md",
+    "Code/Kotlin/Libraries/Haze/Materials/Fluent.png",
+    "Code/Kotlin/Libraries/Haze/Samples/Scaffold.md",
+    "Code/Kotlin/Libraries/Haze/Materials/Haze.png",
+    "Code/Kotlin/Libraries/Haze/Usage.md",
+    "Code/Kotlin/Libraries/Haze/Samples",
+    "Code/Kotlin/Libraries/Haze/Materials",
+    "Code/Kotlin/Libraries/Haze",
+    "Code/Kotlin/Libraries",
+    "Code/Shell/Unquarantine folder.md",
+    "Code/Shell/Sudoers guide.md",
+    "Code/Shell/Get DNS records of a website.md",
+    "Code/Shell/Execute command for each glob-matched file.md",
+    "Code/Shell/Compress 2K Video.md",
+    "Code/Kotlin/Android/Libraries/Haze/Materials/Materials.md",
+    "README.md",
     "Code/Kotlin/Android/Libraries/Haze/Usage.md",
     "Code/Kotlin/Android/Compose overlay.md",
     "Code/Shell/Fixes/GRUB error when building from source.md",
     "Code/Shell/Docker/Read-write mount.md",
     "Code/Shell/Docker/Build container.md",
     "Code/Shell/Git/Squash last X commits.md",
-    "Code/Shell/Execute command for each glob-matched file.md",
-    "Code/Shell/Compress 2K Video.md",
-    "Code/Shell/Get DNS records of a website.md",
-    "Code/Shell/Unquarantine folder.md",
     "api/haze/dev.chrisbanes.haze/-local-haze-style.html.md",
     "api/haze/dev.chrisbanes.haze",
     "api/haze",
@@ -199,14 +220,8 @@
     "Code/Kotlin/Android/Libraries/Haze/Materials/Fluent.png",
     "Code/Kotlin/Android/Libraries/Haze/Materials/Cupertino.png",
     "Code/Kotlin/Android/Libraries/Haze/Materials/Haze.png",
-    "Code/Shell/Fixes",
-    "Code/Kotlin/Android/Libraries/Haze/Materials",
-    "Code/Kotlin/Android/Libraries/Haze/Samples",
-    "Code/Kotlin/Android/Libraries/Haze",
     "materials.md",
     "Code/Kotlin/Android/Libraries/Haze~.md",
-    "Code/Kotlin/Android/Libraries",
-    "Code/Shell/Docker",
     "2025-06-04.md",
     "Untitled.canvas",
     "Welcome.md"
