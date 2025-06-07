@@ -11,14 +11,10 @@
             "id": "25bb21415711ecf1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Code/Kotlin/Libraries/kotlinx.datetime.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "kotlinx.datetime"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -157,8 +153,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -166,8 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.5,
-    "collapsed": true
+    "width": 200.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,6 +177,9 @@
   },
   "active": "25bb21415711ecf1",
   "lastOpenFiles": [
+    "Code/Kotlin/Fixes/Default hierarchy template not applied fix.md",
+    "Code/Kotlin/Untitled.md",
+    "Code/Kotlin/Fixes",
     "Code/Kotlin/Libraries/kotlinx.datetime.md",
     "Code/Kotlin/Libraries/kotlinx.datetime~.md",
     "Code/Servers/Fail2Ban.md",
@@ -216,14 +214,11 @@
     "api/haze",
     "api",
     "Code/Servers/Fail2Ban~.md",
-    "Code/Servers",
     "Code/Kotlin/Android/Libraries/Haze/Materials/Fluent.png",
     "Code/Kotlin/Android/Libraries/Haze/Materials/Cupertino.png",
     "Code/Kotlin/Android/Libraries/Haze/Materials/Haze.png",
     "materials.md",
     "Code/Kotlin/Android/Libraries/Haze~.md",
-    "2025-06-04.md",
-    "Untitled.canvas",
-    "Welcome.md"
+    "Untitled.canvas"
   ]
 }
