@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.5
+    "width": 200.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8d5a67c1b6430eac",
+  "active": "cf462e02cbada55a",
   "lastOpenFiles": [
     "Code/Servers/Fail2Ban.md",
     "Code/Servers/SSH.md",
