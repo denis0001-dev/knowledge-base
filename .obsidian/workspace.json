@@ -11,10 +11,14 @@
             "id": "25bb21415711ecf1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Code/Web/reCAPTCHA.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "reCAPTCHA"
             }
           }
         ]
@@ -162,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.5,
-    "collapsed": true
+    "width": 200.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,8 +179,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "25bb21415711ecf1",
+  "active": "e7376cdb50494684",
   "lastOpenFiles": [
+    "Code/Shell/Unquarantine folder.md",
+    "Code/Web/reCAPTCHA.md",
+    "Code/Web",
     "Code/Kotlin/Fixes/Default hierarchy template not applied fix.md",
     "Code/Kotlin/Untitled.md",
     "Code/Kotlin/Fixes",
@@ -197,7 +203,6 @@
     "Code/Kotlin/Libraries/Haze/Materials",
     "Code/Kotlin/Libraries/Haze",
     "Code/Kotlin/Libraries",
-    "Code/Shell/Unquarantine folder.md",
     "Code/Shell/Sudoers guide.md",
     "Code/Shell/Get DNS records of a website.md",
     "Code/Shell/Execute command for each glob-matched file.md",
@@ -213,13 +218,11 @@
     "api/haze/dev.chrisbanes.haze/-local-haze-style.html.md",
     "api/haze/dev.chrisbanes.haze",
     "api/haze",
-    "api",
     "Code/Servers/Fail2Ban~.md",
     "Code/Kotlin/Android/Libraries/Haze/Materials/Fluent.png",
     "Code/Kotlin/Android/Libraries/Haze/Materials/Cupertino.png",
     "Code/Kotlin/Android/Libraries/Haze/Materials/Haze.png",
     "materials.md",
-    "Code/Kotlin/Android/Libraries/Haze~.md",
     "Untitled.canvas"
   ]
 }
