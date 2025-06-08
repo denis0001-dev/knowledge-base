@@ -1,6 +1,7 @@
-#server #shell #code #security
-## Setup
+#server #shell #code #security #guide
 
+Fail2Ban will protect you from [[SSH]] attacks by banning IPs with malicious activity like bruteforce.
+## Setup
 To set up Fail2Ban use the following commands:
 ```bash
 sudo apt update
