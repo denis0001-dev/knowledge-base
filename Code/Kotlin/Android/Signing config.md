@@ -8,6 +8,7 @@ keyPassword=<password>
 storePassword=<password>
 ```
 
+Replace `<password>` with the actual password for both the key password and the keystore password.
 ## Gradle config
 Add the following block in `build.gradle.kts` > `android`:
 
