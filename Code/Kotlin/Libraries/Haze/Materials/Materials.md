@@ -1,17 +1,9 @@
 #code #android #compose #library #kotlin 
 
 We provide off of the shelf implementations of [HazeStyle](api/haze/dev.chrisbanes.haze/-haze-style/index.html)s which implement 'materials' of various styles.
-## Download
 
-Add the following code to `build.gradle.kts`:
-``` kotlin
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    implementation("dev.chrisbanes.haze:haze-materials:<version>")
-}
+```kotlin
+implementation("dev.chrisbanes.haze:haze-materials:<version>")
 ```
 
 ### HazeMaterials

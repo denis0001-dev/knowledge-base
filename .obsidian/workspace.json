@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cf462e02cbada55a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Code/Kotlin/Libraries/kotlinx.datetime.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "kotlinx.datetime"
-            }
-          },
-          {
             "id": "84919e241435389f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Kotlin/Fixes/Bypass internal access modifier.md",
-                "mode": "source",
+                "file": "Code/Kotlin/Fixes/Default hierarchy template not applied fix.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bypass internal access modifier"
+              "title": "Default hierarchy template not applied fix"
+            }
+          },
+          {
+            "id": "cf462e02cbada55a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Code/Web/reCAPTCHA V2 (Checkbox).md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "reCAPTCHA V2 (Checkbox)"
             }
           }
         ]
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#fix",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.5,
-    "collapsed": true
+    "width": 200.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,24 +193,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf462e02cbada55a",
+  "active": "e7376cdb50494684",
   "lastOpenFiles": [
-    "Code/Servers/Fail2Ban.md",
-    "Code/Servers/SSH.md",
+    "Code/Kotlin/Libraries/Haze/Materials/Materials.md",
     "Code/Web/reCAPTCHA V2 (Checkbox).md",
     "Code/Kotlin/Fixes/Bypass internal access modifier.md",
+    "Code/Kotlin/Libraries/kotlinx.datetime.md",
+    "Code/Servers/Fail2Ban.md",
+    "Code/Servers/SSH.md",
     "Code/Kotlin/Untitled.md",
     "Code/Shell/Unquarantine folder.md",
     "Code/Web",
     "Code/Kotlin/Fixes/Default hierarchy template not applied fix.md",
     "Code/Kotlin/Fixes",
-    "Code/Kotlin/Libraries/kotlinx.datetime.md",
     "Code/Kotlin/Libraries/kotlinx.datetime~.md",
     "Code/Kotlin/Libraries/kotlinx.datetime",
     "Code/Kotlin/Libraries/Новая папка",
     "Code/Kotlin/Android/Libraries/Haze/Samples/Scaffold.md",
     "Code/Kotlin/Libraries/Haze/Materials/Cupertino.png",
-    "Code/Kotlin/Libraries/Haze/Materials/Materials.md",
     "Code/Kotlin/Libraries/Haze/Materials/Fluent.png",
     "Code/Kotlin/Libraries/Haze/Samples/Scaffold.md",
     "Code/Kotlin/Libraries/Haze/Materials/Haze.png",
