@@ -1,4 +1,4 @@
-#code #android #kotlin #gradle #security 
+#code #android #kotlin #gradle #security #guide 
 
 ## Setup
 First, create a keystore file in `keys/keystore.jks`. Then, create `keys/keystore.properties`:
