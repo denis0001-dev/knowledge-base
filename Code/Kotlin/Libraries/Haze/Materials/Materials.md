@@ -8,7 +8,7 @@ implementation("dev.chrisbanes.haze:haze-materials:<version>")
 
 ### HazeMaterials
 
-A class which contains functions to build HazeStyles which implement 'material-like' styles. It is inspired by the material APIs available in SwiftUI, but it makes no attempt to provide the exact effects provided in iOS (unlike [CuperintoMaterials](#cupertinomaterials) below).
+A class which contains functions to build HazeStyles which implement 'material-like' styles. It is inspired by the material APIs available in SwiftUI, but it makes no attempt to provide the exact effects provided in iOS (unlike [CupertinoMaterials](#cupertinomaterials) below).
 ![[Haze.png]]
 
 Class reference: [HazeMaterials](api/haze-materials/dev.chrisbanes.haze.materials/-haze-materials/index.html).
