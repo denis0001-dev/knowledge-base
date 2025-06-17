@@ -1,4 +1,4 @@
-#shell #code #apple #fix
+#shell #code #apple #fix #files 
 
 Run this inside the directory you want to unquarantine
 

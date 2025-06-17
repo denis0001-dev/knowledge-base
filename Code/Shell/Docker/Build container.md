@@ -1,5 +1,4 @@
-#docker #shell #code
-
+#docker #shell #code #containers
 Run in the directory containing the `Dockerfile`
 
 ```bash

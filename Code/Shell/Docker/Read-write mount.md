@@ -1,6 +1,9 @@
-#docker #shell #files #code
-
-Add the following to the start of your `docker run` command:
+#docker  #cli-option #shell #files #code #containers
+## Syntax
 ```bash
 --mount type=bind,src=<host-path>,dst=<container-path>
+```
+## Examples
+```bash
+docker run --mount type=bind,src=.,dst=/root/dir -it ubuntu
 ```
