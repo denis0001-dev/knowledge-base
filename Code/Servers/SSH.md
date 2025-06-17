@@ -20,3 +20,5 @@ ssh-copy-id user@host
 
 Replace `user` with the actual user on the host and replace `host` with the actual host IP address.
 SSH may ask you to enter the user's password for the last time.
+## Proxy
+To connect to the local network of the remote machine, run SSH with the `-D` flag and connect to `127.0.0.1:80` as a SOCKS proxy.
