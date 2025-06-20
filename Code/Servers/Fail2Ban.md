@@ -1,4 +1,4 @@
-#server #shell #code #security #guide
+#server #shell #code #security #guide #linux
 
 Fail2Ban will protect you from [[SSH]] attacks by banning IPs with malicious activity like bruteforce.
 ## Setup

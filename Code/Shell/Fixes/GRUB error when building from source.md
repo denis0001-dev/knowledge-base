@@ -1,4 +1,4 @@
-#shell #fix #code 
+#shell #fix #code #linux 
 
 Avoid this error due to `extra_deps.lst` missing from source tarball:
 
