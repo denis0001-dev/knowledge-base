@@ -40,10 +40,9 @@ You can use a `GITHUB_TOKEN` in a GitHub Actions workflow to delete or restore
 2. Using the CLI for your container type, sign in to the Container registry service at `ghcr.io`.
     
     ```shell
-    $ echo YOUR_TOKEN | docker login ghcr.io -u USERNAME --password-stdin
-    > Login Succeeded
+    echo YOUR_TOKEN | docker login ghcr.io -u USERNAME --password-stdin
     ```
-	Replace `YOUR_TOKEN` with the actual PAT.
+	Replace `YOUR_TOKEN` with the actual PAT, and `USERNAME` with your GitHub username.
 
 ## Pushing container images
 
