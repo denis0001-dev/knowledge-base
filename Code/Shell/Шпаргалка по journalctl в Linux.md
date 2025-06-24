@@ -198,13 +198,9 @@
 
 `sudo journalctl --disk-usage`
 
-[![](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-40-42-1024x576.png)](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-40-42.png)
-
 Чтобы уменьшить размер лога можно использовать опцию --vacuum-size. Например, если вы хотите, чтобы ваши файлы журналов занимали на диске не более 2 Гб, выполните команду:
 
 `sudo journalctl --vacuum-size=2G`
-
-[![](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-17-01-44-1024x576.png)](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-17-01-44.png)
 
 Теперь старые логи будут удалены, пока общий объем хранилища не будет составлять 2 гигабайта. Также можно удалять логи по времени. Для этого используется опция --vacuum-time. Например, оставим только логи за последний год:
 
