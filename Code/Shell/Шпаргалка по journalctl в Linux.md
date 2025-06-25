@@ -5,17 +5,16 @@
 
 ## Содержание статьи
 
-- [Синтаксис и опции journalctl](https://losst.pro/shpargalka-po-journalctl-v-linux#sintaksis-i-opcii-journalctl)
-- [Горячие клавиши journalctl](https://losst.pro/shpargalka-po-journalctl-v-linux#goryachie-klavishi-journalctl)
-- [Шпаргалка по journalctl](https://losst.pro/shpargalka-po-journalctl-v-linux#shpargalka-po-journalctl)
-    - [1. Просмотр логов сервисов](https://losst.pro/shpargalka-po-journalctl-v-linux#toc-1-prosmotr-logov-servisov)
-    - [2. Просмотр логов в режиме tail](https://losst.pro/shpargalka-po-journalctl-v-linux#toc-2-prosmotr-logov-v-rezhime-tail)
-    - [3. Просмотр логов загрузки](https://losst.pro/shpargalka-po-journalctl-v-linux#toc-3-prosmotr-logov-zagruzki)
-    - [4. Фильтрация по дате](https://losst.pro/shpargalka-po-journalctl-v-linux#toc-4-filtraciya-po-date)
-    - [5. Журнал ядра](https://losst.pro/shpargalka-po-journalctl-v-linux#toc-5-zhurnal-yadra)
-    - [6. Настройка формата вывода](https://losst.pro/shpargalka-po-journalctl-v-linux#toc-6-nastroyka-formata-vyvoda)
-    - [7. Очистка логов](https://losst.pro/shpargalka-po-journalctl-v-linux#toc-7-ochistka-logov)
-- [Выводы](https://losst.pro/shpargalka-po-journalctl-v-linux#vyvody)
+- [Синтаксис и опции journalctl](#sintaksis-i-opcii-journalctl)
+- [Горячие клавиши journalctl](#goryachie-klavishi-journalctl)
+- [Шпаргалка по journalctl](#shpargalka-po-journalctl)
+    1. [Просмотр логов сервисов](#toc-1-prosmotr-logov-servisov)
+    2. [Просмотр логов в режиме tail](#toc-2-prosmotr-logov-v-rezhime-tail)
+    3. [Просмотр логов загрузки](#toc-3-prosmotr-logov-zagruzki)
+    4. [Фильтрация по дате](#toc-4-filtraciya-po-date)
+    5. [Журнал ядра](#toc-5-zhurnal-yadra)
+    6. [Настройка формата вывода](#toc-6-nastroyka-formata-vyvoda)
+    7. [Очистка логов](#toc-7-ochistka-logov)
 
 ## Синтаксис и опции journalctl
 
@@ -205,7 +204,3 @@
 Теперь старые логи будут удалены, пока общий объем хранилища не будет составлять 2 гигабайта. Также можно удалять логи по времени. Для этого используется опция --vacuum-time. Например, оставим только логи за последний год:
 
 `journalctl --vacuum-time=1years`
-
-## Выводы
-
-В этой статье мы разобрали как пользоваться journalctl в Linux. Наличие этой утилиты в системе не означает, что теперь вы не можете пользоваться обычными файлами логов. Большинство сервисов как и раньше пишут свои основные логи в файлы, а в лог journalctl пишутся сообщения при старте сервисов, а также различные системные сообщения.
