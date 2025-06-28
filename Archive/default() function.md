@@ -1,6 +1,7 @@
-#code #shell #function 
+#code #shell #function #archived 
 
 ## Description
+
 This function is an alias to:
 
 ```bash
