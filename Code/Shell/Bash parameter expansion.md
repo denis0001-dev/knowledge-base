@@ -1,4 +1,4 @@
-#code #shell #bash #documentation 
+#code #shell #bash #documentation #reference 
 
 The `$` character introduces parameter expansion, command substitution, or arithmetic expansion. The parameter name or symbol to be expanded may be enclosed in braces, which are optional but serve to protect the variable to be expanded from characters immediately following it which could be interpreted as part of the name.
 
