@@ -22,20 +22,24 @@ Create the overlay like this:
 ```kotlin
 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
     // set the layout parameters of the window
-    val params = WindowManager.LayoutParams( // Shrink the window to wrap the content rather
+    val params = WindowManager.LayoutParams( 
+	    // Shrink the window to wrap the content rather
         // than filling the screen
         WindowManager.LayoutParams.WRAP_CONTENT,
-        WindowManager.LayoutParams.WRAP_CONTENT,  // Display it on top of other application windows
-        WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,  // Don't let it grab the input focus
-        WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,  // Make the underlying application window visible
+        WindowManager.LayoutParams.WRAP_CONTENT,
+        // Display it on top of other application windows
+        WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,
+        // Don't let it grab the input focus
+        WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,
+        // Make the underlying application window visible
         // through any transparent parts
         PixelFormat.TRANSLUCENT
     )
   
     val view = ComposeView {
-        Text("gherdiguvofwfehgoesg")
+        // Compose content
     }.apply {
-        // Trick The ComposeView into thinking we are tracking lifecycle
+        // Use the LifecycleOwner to fix the ComposeView
         val lifecycleOwner = ComposeLifecycleOwner()
         lifecycleOwner.performRestore(null)
         lifecycleOwner.handleLifecycleEvent(Lifecycle.Event.ON_CREATE)
@@ -46,16 +50,19 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
     // Define the position of the window within the screen
     params.gravity = Gravity.CENTER
     val windowManager = context.getSystemService(WINDOW_SERVICE) as WindowManager
-    runOrLog("Applocker") {
+    try {
         // check if the view is already inflated or present in the window
         if (view.windowToken == null && view.parent == null) {
             windowManager.addView(view, params);
         }
+    } catch (e: Exception) {
+        // handle the exception
     }
 }
 ```
 
 __ComposeLifecycleOwner__:
+
 ```kotlin
 import android.os.Bundle
 import androidx.lifecycle.Lifecycle

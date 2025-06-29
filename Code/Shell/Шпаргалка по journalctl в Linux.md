@@ -85,13 +85,15 @@
 
 Вывод journalctl представляет из себя цельный список всех сохраненных сообщений. Если вы запустите команду journalctl без параметров, то получите самые первые сообщения, которые были сохранены. В моем случае это данные за 13 января:
 
-`sudo journalctl`
+```bash
+sudo journalctl
+```
 
 [![](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-12-41-1024x576.png)](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-12-41.png)
 
 Чтобы найти именно то, что вам нужно, необходимо научится перемещаться по этому списку. Формат вывода лога довольно простой:
 
-**янв 13 20:55:55 sergiy-pc kernel: Linux version 4.15.0-43-generic**
+> янв 13 20:55:55 sergiy-pc kernel: Linux version 4.15.0-43-generic
 
 - **янв 13 20:55:55** - дата и время события;
 - **sergiy-pc** - хост, на котором произошло событие;
@@ -104,7 +106,9 @@
 
 Самый частый случай использования journalctl - это когда вы пытаетесь запустить какой-либо сервис с помощью systemd, он не запускается и systemd выдает вам такое сообщение подобного содержания: Failed to start service use journalctl -xe for details. Система сама предлагает вам какую команду надо выполнить:
 
-`sudo journalctl -xe`
+```bash
+sudo journalctl -xe
+```
 
 [![](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-03-43-1024x576.png)](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-03-43.png)
 
@@ -112,7 +116,9 @@
 
 Чтобы отфильтровать сообщения только от определенного сервиса можно использовать опцию -u. Например:
 
-`sudo journalctl -eu apache2.service`
+```bash
+sudo journalctl -eu apache2.service
+```
 
 [![](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-05-17-1024x576.png)](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-05-17.png)
 
@@ -120,7 +126,9 @@
 
 С помощью опции -f можно указать утилите, что необходимо выводить новые сообщения в реальном времени:
 
-`sudo journalctl -f`
+```bash
+sudo journalctl -f
+```
 
 В этом режиме less не поддерживается, поэтому для выхода нажмите сочетание клавиш **Ctrl+C**.
 
@@ -128,13 +136,17 @@
 
 В логе journalctl содержатся все логи, в том числе и логи загрузки. Для того чтобы открыть лог последней загрузки используйте опцию -b:
 
-`sudo journalctl -b`
+```bash
+sudo journalctl -b
+```
 
 [![](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-08-16-1024x576.png)](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-08-16.png)
 
 Посмотреть список всех сохраненных загрузок можно командой:
 
-`sudo journalctl -list-boots`
+```bash
+sudo journalctl -list-boots
+```
 
 [![](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-08-34-1024x576.png)](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-08-34.png)
 
@@ -148,17 +160,23 @@
 
 С помощью опции **--since** вы можете указать дату и время, начиная с которой нужно отображать логи:
 
-`sudo journalctl --since "2019-01-20 15:10:10"`
+```bash
+sudo journalctl --since "2019-01-20 15:10:10"
+```
 
 [![](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-10-49-1024x576.png)](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-10-49.png)
 
 Опция **--until** помогает указать по какую дату вы хотите получить информацию:
 
-`sudo journalctl -e --until "2019-01-20 15:05:50"`
+```bash
+sudo journalctl -e --until "2019-01-20 15:05:50"
+```
 
 Или сразу скомбинируем две эти опции чтобы получить логи за нужный период:
 
-`sudo journalctl --since "2019-01-20 15:10:10" --until "2019-01-20 15:05:50"`
+```bash
+sudo journalctl --since "2019-01-20 15:10:10" --until "2019-01-20 15:05:50"
+```
 
 [![](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-30-34-1024x576.png)](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-30-34.png)
 
@@ -168,7 +186,9 @@
 
 Если вы хотите посмотреть только сообщения ядра используйте опцию -k:
 
-`sudo journalctl -ek`
+```bash
+sudo journalctl -ek
+```
 
 [![](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-32-40-1024x576.png)](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-32-40.png)
 
@@ -184,24 +204,40 @@
 
 Чтобы указать нужный формат используйте опцию -o. Например:
 
-`sudo journalctl -o json-pretty`
+```bash
+sudo journalctl -o json-pretty
+```
 
 [![](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-38-18-1024x576.png)](https://losst.pro/wp-content/uploads/2019/03/Snimok-ekrana-ot-2019-03-20-16-38-18.png)
 
 Или:
 
-`sudo journalctl -eo json-pretty`
+```bash
+sudo journalctl -eo json-pretty
+```
 
 ### 7. Очистка логов
 
 Сначала нужно посмотреть сколько ваши логи занимают на диске. Для этого используйте такую команду:
 
-`sudo journalctl --disk-usage`
+```bash
+sudo journalctl --disk-usage
+```
 
 Чтобы уменьшить размер лога можно использовать опцию --vacuum-size. Например, если вы хотите, чтобы ваши файлы журналов занимали на диске не более 2 Гб, выполните команду:
 
-`sudo journalctl --vacuum-size=2G`
+```bash
+sudo journalctl --vacuum-size=2G
+```
 
 Теперь старые логи будут удалены, пока общий объем хранилища не будет составлять 2 гигабайта. Также можно удалять логи по времени. Для этого используется опция --vacuum-time. Например, оставим только логи за последний год:
 
-`journalctl --vacuum-time=1years`
+```bash
+journalctl --vacuum-time=1years
+```
+
+Чтобы удалить все логи, нужно использовать `--vaccum-time=1s`:
+
+```bash
+journalctl --flush --rotate --vacuum-time=1s
+```
