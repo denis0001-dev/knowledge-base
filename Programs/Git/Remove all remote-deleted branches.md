@@ -4,8 +4,4 @@
 git remote prune <remote>
 ```
 
-## Only see the list without actually deleting anything
-  
-```bash
-git remote prune <remote> --dry-run
-```
+Add `--dry-run` to look at what will be deleted without deleting anything.
