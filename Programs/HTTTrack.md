@@ -1,3 +1,4 @@
+#programs #shell #web 
 ## Background and Introduction
 
 I started using httrack in mid-2000 and found it to be an excellent tool for imaging web sites. Various words are used to describe this process - from imaging to mirroring to snaking and so on. I will be using a variety of these words in my description.
@@ -22,12 +23,15 @@ This sort of a mirror image is not an identical copy of the original web site - 
 
 For each of the issues discussed here - and many more - httrack has options to allow you to make different choices and get different results. This is one of the great things about httrack - and one of the the real major problems with using it without the knowledge of all that it can do. If you want to know all the things httrack can do, you might try typing:
 
+```shell
 **_httrack --help_**
+```
 
 Unfortunately, while this outputs a though list of options, it is somewhat less helpful it might be for those who don't know what the options all mean and haven't used them before. On the other hand, this is most useful for those who already know how to use the program but don't remember some obscure option that they haven't used for some time.
 
 The rest of this manual is dedicated to detailing what you find in the help message and providing examples - lots and lots of examples... Here is what you get (page by page - use to move to the next page in the real program) if you type 'httrack --help':
 
+```
 >httrack --help
  HTTrack version 3.03BETAo4 (compiled Jul  1 2001)
 	usage: ./httrack ] [-]
@@ -184,7 +188,8 @@ Details: User-defined option N
   %[param] param variable in query string
 
 Shortcuts:
---mirror      
+--mirror
+```      
 
  For many of you, the manual is now complete, but for
 the rest of us, I will now go through this listing one item at a time
@@ -209,6 +214,7 @@ For example:
 the help page marked with '*' in the listing above) to image the web
 site. Specifically, the defauls are:
 
+```
   w *mirror web sites
  %f *use proxy for ftp (f0 don't use)
   cN number of multiple connections (*c8)
@@ -230,6 +236,7 @@ site. Specifically, the defauls are:
   D  *can only go down into subdirs
   a  *stay on the same address
   --mirror       *make a mirror of site(s) (default)
+```
 
  Here's what all of that means:
 
@@ -1333,6 +1340,7 @@ e     +* (this is crazy unless a depth limit is used!)_**
 documented options".  You can use them, in fact, do not believe what is
 written above!
 
+```
  #0  Filter test (-#0 '*.gif' 'www.bar.com/foo.gif')
 
   To test the filter system. Example:
@@ -1392,6 +1400,7 @@ based authentication)
  #!  Execute a shell command (-#! "echo hello")
 
  Debug..
+```
 
 ---
 
